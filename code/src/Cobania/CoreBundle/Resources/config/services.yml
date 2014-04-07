@@ -1,0 +1,7 @@
+parameters:
+#    cobania_core.example.class: Cobania\CoreBundle\Example
+
+services:
+#    cobania_core.example:
+#        class: %cobania_core.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,4 @@
+cobania_core:
+    resource: "@CobaniaCoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
