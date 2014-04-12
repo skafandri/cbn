@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * ProductType
  *
  * @ORM\Table(name="product_type")
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="Cobania\CoreBundle\Entity")
  */
 class ProductType
 {

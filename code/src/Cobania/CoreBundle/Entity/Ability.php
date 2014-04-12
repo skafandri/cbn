@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Ability
  *
  * @ORM\Table(name="ability", indexes={@ORM\Index(name="fk_ability_employee_type1_idx", columns={"employee_type_id"})})
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="Cobania\CoreBundle\Entity")
  */
 class Ability
 {

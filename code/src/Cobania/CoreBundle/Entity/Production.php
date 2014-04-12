@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Production
  *
  * @ORM\Table(name="production", indexes={@ORM\Index(name="fk_production_product_type1_idx", columns={"product_type_id"}), @ORM\Index(name="fk_production_building_type1_idx", columns={"building_type_id"})})
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="Cobania\CoreBundle\Entity")
  */
 class Production
 {

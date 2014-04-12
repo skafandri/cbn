@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * BuildingTypeHasEmployeeType
  *
  * @ORM\Table(name="building_type_has_employee_type", indexes={@ORM\Index(name="fk_building_type_has_employee_type_employee_type1_idx", columns={"employee_type_id"}), @ORM\Index(name="fk_building_type_has_employee_type_building_type1_idx", columns={"building_type_id"}), @ORM\Index(name="fk_building_type_has_employee_type_level1_idx", columns={"level_id"})})
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="Cobania\CoreBundle\Entity")
  */
 class BuildingTypeHasEmployeeType
 {

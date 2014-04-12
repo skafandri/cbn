@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * EmployeeType
  *
  * @ORM\Table(name="employee_type")
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="Cobania\CoreBundle\Entity")
  */
 class EmployeeType
 {

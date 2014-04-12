@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Locale
  *
  * @ORM\Table(name="locale")
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="Cobania\CoreBundle\Entity")
  */
 class Locale
 {

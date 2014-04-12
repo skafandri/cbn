@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Level
  *
  * @ORM\Table(name="level")
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="Cobania\CoreBundle\Entity")
  */
 class Level
 {

@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * BusinessTypeHasBuildingType
  *
  * @ORM\Table(name="business_type_has_building_type", indexes={@ORM\Index(name="fk_business_type_has_building_type_building_type1_idx", columns={"building_type_id"}), @ORM\Index(name="fk_business_type_has_building_type_business_type1_idx", columns={"business_type_id"})})
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="Cobania\CoreBundle\Entity")
  */
 class BusinessTypeHasBuildingType
 {

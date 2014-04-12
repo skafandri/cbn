@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Land
  *
  * @ORM\Table(name="land")
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="Cobania\CoreBundle\Entity")
  */
 class Land
 {

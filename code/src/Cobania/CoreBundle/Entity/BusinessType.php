@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * BusinessType
  *
  * @ORM\Table(name="business_type", indexes={@ORM\Index(name="fk_business_type_land1_idx", columns={"land_id"})})
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="Cobania\CoreBundle\Entity")
  */
 class BusinessType
 {

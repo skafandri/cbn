@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * Plot
  *
  * @ORM\Table(name="plot", indexes={@ORM\Index(name="fk_plot_land1_idx", columns={"land_id"})})
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="Cobania\CoreBundle\Entity")
  */
 class Plot
 {

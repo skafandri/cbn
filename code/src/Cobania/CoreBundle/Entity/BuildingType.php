@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
  * BuildingType
  *
  * @ORM\Table(name="building_type")
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="Cobania\CoreBundle\Entity")
  */
 class BuildingType
 {
